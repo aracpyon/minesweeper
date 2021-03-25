@@ -1,0 +1,27 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aracpyon/minesweeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aracpyon/minesweeper/issues"
+  },
+  "homepage": "https://github.com/aracpyon/minesweeper#readme",
+  "dependencies": {
+    "webpack": "^5.28.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
+}
