@@ -64,7 +64,7 @@ export class Board {
   constructor(gridSize, numBombs) {
     this.gridSize = (gridSize || 9 ) ;
     this.grid = [];
-    this.numBombs = (numBombs || 5 );
+    this.numBombs = (numBombs || 9 );
     this.generateBoard();
     this.plantBombs();
   }

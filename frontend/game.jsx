@@ -15,8 +15,14 @@ class Game extends React.Component{
 
    }
 
-   updateGame(){
+   updateGame(tile, flag){
+      if (flag){
+         tile.toggleFlag();
+      } else {
+         tile.explore();
+      }
 
+      this.setState({board: this.state.board})
    }
 
    render(){
